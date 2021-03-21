@@ -1,0 +1,16 @@
+<body>
+<h2 class="header">My tasks today</h2>
+    <div>
+        <div>
+            New task? :  <input [(ngModel)]="newToDo" />
+            <button (click)="addList(newToDo)">Add</button>
+        </div>
+        <br>
+        <li *ngFor="let dolist of todoArr">
+            {{dolist}}
+            <button class="del" (click)="delList(dolist)">del</button>
+        </li>
+        <br>
+        
+</div>
+</body>

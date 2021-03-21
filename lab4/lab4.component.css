@@ -1,0 +1,16 @@
+.title{
+    color: rgb(220, 196, 63);
+    border: dotted;
+    border-radius: 10px;
+    border-color: slategrey;
+    width: fit-content;
+}
+
+.number-even{
+    color:limegreen;
+    font-size: 25px;
+}
+.number-odd{
+    color:red;
+    font-size: 25px;
+}

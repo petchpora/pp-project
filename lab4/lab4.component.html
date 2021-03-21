@@ -1,0 +1,7 @@
+<ul>
+    <h1 class="title">EvenOdd</h1>
+    <li *ngFor="let item of items">
+        <p class="number-even" *ngIf="item %2 ===0">{{ item }}</p>
+        <p class="number-odd" *ngIf="item %2 !==0">{{ item }}</p>
+    </li>
+    </ul>

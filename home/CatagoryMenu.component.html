@@ -1,0 +1,44 @@
+<body>
+<ul>
+    <p class="itemHead">Phone</p>
+    <li *ngFor="let item of phone">
+        <span class="itemList" *ngIf="item !== 'iPhong'">{{item}}</span>
+        <span class="itemList" *ngIf="item === 'iPhong'" style="color: red;">{{item | uppercase }}</span>
+    </li>
+</ul>
+
+<ul>
+    <p class="itemHead">Toys</p>
+    <li *ngFor="let item of toy">
+        <span class="itemList">{{item}}</span>
+    </li>
+</ul>
+
+<ul>
+    <p class="itemHead">Computer</p>
+    <li *ngFor="let item of com">
+        <span class="itemList">{{item}}</span>
+    </li>
+</ul>
+
+<ul>
+    <p class="itemHead">Books</p>
+    <li *ngFor="let item of book">
+        <span class="itemList">{{item}}</span>
+    </li>
+</ul>
+
+<ul>
+    <p class="itemHead">Shoes</p>
+    <li *ngFor="let item of shoe">
+        <span class="itemList">{{item}}</span>
+    </li>
+</ul>
+
+<ul>
+    <p class="itemHead">Drinks</p>
+    <li *ngFor="let item of drink">
+        <span class="itemList">{{item}}</span>
+    </li>
+</ul>
+</body>

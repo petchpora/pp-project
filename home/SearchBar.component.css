@@ -1,0 +1,13 @@
+.header{
+    color: palevioletred;
+}
+.sBar{
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: inherit;
+    height: 32px;
+}
+.goButton{
+    height: 32px;
+    width: 50px;
+}

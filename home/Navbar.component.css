@@ -1,0 +1,24 @@
+.logo{
+    font-size: 60px; 
+    color: mediumpurple; 
+    text-align: center;
+    background-color: wheat;
+}
+.leftMenu{
+    /* text-align: left;  */
+    float: left;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.rightMenu {
+    /* text-align: right; */
+    float: right;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.navHead {
+    margin-left: 20%;
+    margin-right: 20%;
+}

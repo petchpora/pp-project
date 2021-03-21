@@ -1,0 +1,23 @@
+body {
+    margin-top: 320px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ul{
+    float: left;
+    width: auto;
+}
+.itemList {
+    color: darkgray;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.itemHead{
+    color: slateblue;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    width: 130px;
+    background-color: thistle
+
+}
